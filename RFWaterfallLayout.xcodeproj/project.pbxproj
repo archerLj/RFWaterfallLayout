@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418C10EF23AF8C550092F9A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C10EE23AF8C550092F9A7 /* AppDelegate.m */; };
+		418C10F523AF8C550092F9A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C10F423AF8C550092F9A7 /* ViewController.m */; };
+		418C10F823AF8C550092F9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418C10F623AF8C550092F9A7 /* Main.storyboard */; };
+		418C10FA23AF8C570092F9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418C10F923AF8C570092F9A7 /* Assets.xcassets */; };
+		418C10FD23AF8C570092F9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418C10FB23AF8C570092F9A7 /* LaunchScreen.storyboard */; };
+		418C110023AF8C570092F9A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C10FF23AF8C570092F9A7 /* main.m */; };
+		418C110923AF8D910092F9A7 /* RFWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C110823AF8D910092F9A7 /* RFWaterfallLayout.m */; };
+		418C110C23AF9BD90092F9A7 /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 418C110B23AF9BD90092F9A7 /* DemoCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		418C10EA23AF8C550092F9A7 /* RFWaterfallLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFWaterfallLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418C10ED23AF8C550092F9A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		418C10EE23AF8C550092F9A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		418C10F323AF8C550092F9A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		418C10F423AF8C550092F9A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		418C10F723AF8C550092F9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		418C10F923AF8C570092F9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		418C10FC23AF8C570092F9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		418C10FE23AF8C570092F9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418C10FF23AF8C570092F9A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		418C110723AF8D910092F9A7 /* RFWaterfallLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFWaterfallLayout.h; sourceTree = "<group>"; };
+		418C110823AF8D910092F9A7 /* RFWaterfallLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFWaterfallLayout.m; sourceTree = "<group>"; };
+		418C110A23AF9BD90092F9A7 /* DemoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		418C110B23AF9BD90092F9A7 /* DemoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418C10E723AF8C550092F9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418C10E123AF8C550092F9A7 = {
+			isa = PBXGroup;
+			children = (
+				418C10EC23AF8C550092F9A7 /* RFWaterfallLayout */,
+				418C10EB23AF8C550092F9A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418C10EB23AF8C550092F9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418C10EA23AF8C550092F9A7 /* RFWaterfallLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418C10EC23AF8C550092F9A7 /* RFWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				418C110623AF8D760092F9A7 /* RFWaterfallLayout */,
+				418C10ED23AF8C550092F9A7 /* AppDelegate.h */,
+				418C10EE23AF8C550092F9A7 /* AppDelegate.m */,
+				418C10F323AF8C550092F9A7 /* ViewController.h */,
+				418C10F423AF8C550092F9A7 /* ViewController.m */,
+				418C10F623AF8C550092F9A7 /* Main.storyboard */,
+				418C10F923AF8C570092F9A7 /* Assets.xcassets */,
+				418C10FB23AF8C570092F9A7 /* LaunchScreen.storyboard */,
+				418C10FE23AF8C570092F9A7 /* Info.plist */,
+				418C10FF23AF8C570092F9A7 /* main.m */,
+				418C110A23AF9BD90092F9A7 /* DemoCell.h */,
+				418C110B23AF9BD90092F9A7 /* DemoCell.m */,
+			);
+			path = RFWaterfallLayout;
+			sourceTree = "<group>";
+		};
+		418C110623AF8D760092F9A7 /* RFWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				418C110723AF8D910092F9A7 /* RFWaterfallLayout.h */,
+				418C110823AF8D910092F9A7 /* RFWaterfallLayout.m */,
+			);
+			path = RFWaterfallLayout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418C10E923AF8C550092F9A7 /* RFWaterfallLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 418C110323AF8C570092F9A7 /* Build configuration list for PBXNativeTarget "RFWaterfallLayout" */;
+			buildPhases = (
+				418C10E623AF8C550092F9A7 /* Sources */,
+				418C10E723AF8C550092F9A7 /* Frameworks */,
+				418C10E823AF8C550092F9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFWaterfallLayout;
+			productName = RFWaterfallLayout;
+			productReference = 418C10EA23AF8C550092F9A7 /* RFWaterfallLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418C10E223AF8C550092F9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = com.tech.zhonghua;
+				TargetAttributes = {
+					418C10E923AF8C550092F9A7 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 418C10E523AF8C550092F9A7 /* Build configuration list for PBXProject "RFWaterfallLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 418C10E123AF8C550092F9A7;
+			productRefGroup = 418C10EB23AF8C550092F9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418C10E923AF8C550092F9A7 /* RFWaterfallLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418C10E823AF8C550092F9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C10FD23AF8C570092F9A7 /* LaunchScreen.storyboard in Resources */,
+				418C10FA23AF8C570092F9A7 /* Assets.xcassets in Resources */,
+				418C10F823AF8C550092F9A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418C10E623AF8C550092F9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418C10F523AF8C550092F9A7 /* ViewController.m in Sources */,
+				418C110C23AF9BD90092F9A7 /* DemoCell.m in Sources */,
+				418C10EF23AF8C550092F9A7 /* AppDelegate.m in Sources */,
+				418C110923AF8D910092F9A7 /* RFWaterfallLayout.m in Sources */,
+				418C110023AF8C570092F9A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		418C10F623AF8C550092F9A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C10F723AF8C550092F9A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		418C10FB23AF8C570092F9A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418C10FC23AF8C570092F9A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		418C110123AF8C570092F9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		418C110223AF8C570092F9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		418C110423AF8C570092F9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U272S7D2C9;
+				INFOPLIST_FILE = RFWaterfallLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsun.guojiumaotai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		418C110523AF8C570092F9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U272S7D2C9;
+				INFOPLIST_FILE = RFWaterfallLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techsun.guojiumaotai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418C10E523AF8C550092F9A7 /* Build configuration list for PBXProject "RFWaterfallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C110123AF8C570092F9A7 /* Debug */,
+				418C110223AF8C570092F9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		418C110323AF8C570092F9A7 /* Build configuration list for PBXNativeTarget "RFWaterfallLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				418C110423AF8C570092F9A7 /* Debug */,
+				418C110523AF8C570092F9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418C10E223AF8C550092F9A7 /* Project object */;
+}
